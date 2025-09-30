@@ -14,14 +14,49 @@
     z-index: 99;
 }
 
-.brand-subtitle {
-    font-size: 0.8rem;
-    /* smaller than default */
-    margin: 0;
-    /* keep it tight under the H1 */
-    color: #6c757d;
-    /* optional: subtle gray */
+.gallery-item {
+    width: 100%;
+    height: 250px;
+    /* adjust this to the height you want */
+    overflow: hidden;
+    border-radius: 10px;
+    /* matches your rounded shadow */
 }
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* crops without stretching */
+    border-radius: 10px;
+    /* keeps rounded edges */
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.product-item img {
+    height: 200px;
+    /* force all product images same height */
+    object-fit: cover;
+    /* crop instead of stretch */
+    width: 100%;
+}
+
+.product-item .text-center {
+    flex-grow: 1;
+    /* makes text section expand to equalize height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 .my-6 {
     margin-top: 6rem;
