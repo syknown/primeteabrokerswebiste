@@ -233,7 +233,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/newpage-header.jpeg) top right no-repeat;
+    background: url(../img/newpage-header.jpeg?v=2) top right no-repeat;
     background-size: cover;
 }
 
