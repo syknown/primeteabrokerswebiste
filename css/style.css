@@ -190,8 +190,6 @@
     }
 }
 
-
-/*** Header ***/
 .carousel-caption {
     top: 0;
     left: 0;
@@ -235,7 +233,7 @@
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/woman-harvesting-tea-leaves-kerela-india.jpg) top right no-repeat;
+    background: url(../img/newpage-header.jpeg) top right no-repeat;
     background-size: cover;
 }
 
