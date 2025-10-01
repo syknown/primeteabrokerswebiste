@@ -102,6 +102,15 @@
     color: #FFFFFF;
 }
 
+.custom-yellow {
+    background-color: #ffc107 !important;
+    /* Bootstrap's warning/yellow */
+    border-color: #ffc107 !important;
+    color: #000 !important;
+    /* ensure text is readable */
+}
+
+
 .btn-square {
     width: 38px;
     height: 38px;
